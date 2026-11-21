@@ -1,0 +1,22 @@
+/*
+    Illustrative DAX measures.
+    Validate table/column names and business definitions before use.
+*/
+
+Invoice Amount :=
+SUM ( FactInvoice[InvoiceAmount] )
+
+Open Pipeline :=
+CALCULATE (
+    SUM ( FactOpportunity[EstimatedAmount] ),
+    FactOpportunity[IsOpen] = TRUE ()
+)
+
+Opportunity Count :=
+DISTINCTCOUNT ( FactOpportunity[OpportunityId] )
+
+Target Achievement % :=
+DIVIDE ( [Actual Amount], [Target Amount], 0 )
+
+Lead-to-Opportunity Conversion % :=
+DIVIDE ( [Converted Lead Count], [Eligible Lead Count], 0 )

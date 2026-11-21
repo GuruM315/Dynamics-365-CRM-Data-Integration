@@ -1,13 +1,5 @@
-# Sample Data
+# Synthetic Sample Data
 
-This folder is intentionally empty.
+No production data is included.
 
-If you want to demonstrate the integration with sample records, add only synthetic data that contains no real customer, employee, opportunity, invoice or other confidential information.
-
-Recommended sample columns:
-- Synthetic CRM record ID
-- Example name such as `Sample Account 001`
-- Synthetic modified timestamp
-- Example status
-
-Never add production extracts, CRM exports, screenshots with personal information, or database backups.
+For screenshots or demonstrations, create fictional accounts, opportunities, invoices, campaigns and users. Use synthetic email addresses such as `analyst01@example.com`. Do not upload real CRM exports, customer details, employee information, company PBIX files or screenshots showing internal systems.
