@@ -1,2 +1,13 @@
-# Dynamics-365-CRM-Data-Integration
-Designed an end-to-end Dynamics 365 CRM data integration solution using SSIS, KingswaySoft and SQL Server. Implemented incremental ETL, data transformations, SCD logic, stored procedures and data validation. Integrated CRM entities and enabled reliable data processing and Power BI reporting for business analytics.
+# Sample Data
+
+This folder is intentionally empty.
+
+If you want to demonstrate the integration with sample records, add only synthetic data that contains no real customer, employee, opportunity, invoice or other confidential information.
+
+Recommended sample columns:
+- Synthetic CRM record ID
+- Example name such as `Sample Account 001`
+- Synthetic modified timestamp
+- Example status
+
+Never add production extracts, CRM exports, screenshots with personal information, or database backups.
